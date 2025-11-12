@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Protected PDF</title>
   <style>
     body {
       display: flex;
-      height: 100vh;
       justify-content: center;
       align-items: center;
+      height: 100vh;
       background-color: #f3f4f6;
       font-family: Arial, sans-serif;
+      flex-direction: column;
+    }
+    h1 {
+      color: #111827;
+      margin-bottom: 20px;
     }
     button {
       padding: 12px 24px;
@@ -29,6 +34,8 @@
   </style>
 </head>
 <body>
-  <button onclick="window.open('exampract.pdf')">Open PDF</button>
+  <h1>Open Protected PDF</h1>
+  <button onclick="window.open('protected.pdf', '_blank')">Open PDF</button>
 </body>
 </html>
+
