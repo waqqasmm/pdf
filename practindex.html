@@ -1,10 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>saviour</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Protected PDF</title>
+  <style>
+    body {
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      background-color: #f3f4f6;
+      font-family: Arial, sans-serif;
+    }
+    button {
+      padding: 12px 24px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      background-color: #2563eb;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #1e40af;
+    }
+  </style>
 </head>
 <body>
-    <href a="Java Practicals.pdf">JAVA</href>
-    <href a="DS Practicals.pdf">Data structures</href>
+  <button onclick="window.open('exampract.pdf')">Open PDF</button>
 </body>
 </html>
